@@ -1,0 +1,49 @@
+﻿body {
+    background-color: aliceblue;
+}
+
+
+#Content {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+#MainImagePanel {
+}
+
+#ThumbsPanel {
+    height: 65px;
+    overflow-y: scroll;
+    margin: 10px 0;
+}
+
+#ImageUploadPluginDiv {
+    float: left;
+}
+
+#ImageUploadButton {
+    float: right;
+}
+
+.thumb_selected {
+    padding: 5px;
+    background-color: papayawhip;
+}
+
+/* Position error-messages */
+.label-important {
+    /*height: 100%;*/
+    margin: 0 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+.thumbnail {
+    display: inline-block;
+}
+
+.thumbnail_selected {
+    /*background: rgb(168, 255, 171);*/
+    border: 1px solid #333;
+}
+
